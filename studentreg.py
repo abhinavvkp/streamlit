@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Student Registration Form")
 
-name = st.text_input("Enter your name")
+name = st.text_input ("Enter your name")
 age = st.number_input("Enter your age", min_value=1, max_value=100)
 gender = st.radio("Select your gender", ["Male", "Female", "Other"])
 course = st.selectbox(
